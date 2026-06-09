@@ -5,7 +5,7 @@ A modern and responsive personal portfolio website built with React and styled-c
 ---
 
 ## 🚀 Live Demo
-👉 Coming soon
+👉 https://portfolio-xi-henna-dvqynfrv2h.vercel.app/
 
 ---
 
