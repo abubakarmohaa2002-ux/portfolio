@@ -25,8 +25,6 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-
-        {/* ✅ Logo */}
        <NavLogo to='/'
   style={{
     display: "flex",
@@ -37,7 +35,6 @@ const Navbar = () => {
   <DiCssdeck size="2.5rem" />
   <Span>Abubakar</Span>
 </NavLogo>
-
 
         {/* ✅ Mobile Menu Icon */}
         <MobileIcon>
