@@ -52,23 +52,6 @@ const Tag = styled.span`
   border-radius: 8px;
 `
 
-const Buttons = styled.div`
-  display: flex;
-  gap: 10px;
-  margin-top: auto;
-`
-
-const Button = styled.a`
-  flex: 1;
-  text-align: center;
-  padding: 8px;
-  font-size: 14px;
-  border-radius: 6px;
-  background: ${({ theme }) => theme.primary};
-  color: white;
-  text-decoration: none;
-`
-
 const ProjectCard = ({ project }) => {
   return (
     <Card>
