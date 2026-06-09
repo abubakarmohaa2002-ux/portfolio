@@ -27,17 +27,17 @@ const Navbar = () => {
       <NavbarContainer>
 
         {/* ✅ Logo */}
-        <NavLogo to='/'>
-          <a style={{
-            display: "flex",
-            alignItems: "center",
-            color: "white",
-            cursor: "pointer"
-          }}>
-            <DiCssdeck size="2.5rem" />
-            <Span>Abubakar</Span>
-          </a>
-        </NavLogo>
+       <NavLogo to='/'
+  style={{
+    display: "flex",
+    alignItems: "center",
+    color: "white"
+  }}
+>
+  <DiCssdeck size="2.5rem" />
+  <Span>Abubakar</Span>
+</NavLogo>
+
 
         {/* ✅ Mobile Menu Icon */}
         <MobileIcon>
