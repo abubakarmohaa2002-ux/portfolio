@@ -56,21 +56,41 @@ export const skills = [
 
 
 
-// ✅ PROJECTS (START SIMPLE — YOU WILL ADD MORE)
+// ✅ PROJECTS (UPDATED WITH REAL APP)
 export const projects = [
+
   {
     id: 1,
+    title: "Task Manager App (MERN Stack)",
+    image: portfolioImg, // 
+    date: "2026",
+    description:
+      "A full-stack task management web application that allows users to register, log in, and manage tasks with full CRUD functionality. Includes JWT authentication, protected routes, and a responsive UI.",
+    tags: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind CSS",
+      "JWT",
+    ],
+    category: "web app",
+    github: "https://github.com/abubakarmohaa2002-ux/task-manager-app",
+    webapp: "https://task-manager-app-khzo.vercel.app/", // 🔥 replace with your real link
+  },
+
+  {
+    id: 2,
     title: "Personal Portfolio Website",
     image: portfolioImg,
     date: "2026",
     description:
-      "A modern and responsive personal portfolio website built with React and styled-components, showcasing my projects and skills.",
-    tags: ["React", "styled-components"],
+      "A modern and responsive personal portfolio website built with React, showcasing projects and technical skills.",
+    tags: ["React", "Styled Components"],
     category: "web app",
     github: "#",
     webapp: "#",
   },
-  
 ];
 
 
