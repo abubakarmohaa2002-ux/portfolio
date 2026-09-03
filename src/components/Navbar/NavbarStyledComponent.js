@@ -73,6 +73,7 @@ export const GitHubButton = styled.a`
 
 export const MobileIcon = styled.div`
   display: none;
+  color: ${({ theme }) => theme.text_primary};
 
   @media (max-width: 768px) {
     display: block;

@@ -55,7 +55,7 @@ const HeroSection = () => {
             </SubTitle>
 
             {/* ✅ Better CTA */}
-            <ResumeButton href={Bio.github} target="_blank">
+            <ResumeButton href="#projects">
               View My Work
             </ResumeButton>
 

@@ -1,19 +1,19 @@
 import portfolioImg from "../assets/portfolio.png";
+import taskManagerImg from "../assets/task-manager.png";
 
 
 // ✅ BIO (YOUR IDENTITY)
 export const Bio = {
-  name: "Abubakar Mohammed",
+  name: "Abubakar Mohammed Bakar",
   roles: [
-    "Full-Stack Developer",
-    "Frontend Developer",
-    "Backend Developer"
+   "Junior Node.js Backend Developer",
+   "Junior Full-Stack Developer",
+   "Computer Science Graduate"
   ],
   description:
-    "I am a Computer Science graduate based in Japan, focused on building modern web applications. I specialize in JavaScript, React, and Node.js, and I enjoy solving real-world problems through software development.",
+    "Computer Science graduate based in Beppu, Japan, building web applications with JavaScript, React, Node.js, Express, and MongoDB. I am seeking a junior backend or full-stack position where I can contribute and continue developing practical software engineering skills.",
   
   github: "https://github.com/abubakarmohaa2002-ux",
-  resume: "#",
   linkedin: "https://www.linkedin.com/in/abubakarmohaa/",
 };
 
@@ -24,32 +24,36 @@ export const skills = [
   {
     title: "Frontend",
     skills: [
-      { name: "React Js" },
+      { name: "React" },
       { name: "JavaScript" },
       { name: "HTML" },
-      { name: "CSS" }
+      { name: "CSS" },
+      { name: "Tailwind CSS" },
+      { name: "Styled Components" }
     ],
   },
   {
     title: "Backend",
     skills: [
-      { name: "Node Js" },
-      { name: "Express Js" }
+      { name: "Node.js" },
+      { name: "Express.js" },
+      { name: "REST APIs" },
+      { name: "JWT Authentication" }
     ],
   },
   {
     title: "Database",
     skills: [
-      { name: "MongoDB" },
-      { name: "Supabase" }
+      { name: "MongoDB" }
     ],
   },
   {
-    title: "Tools",
+    title: "Tools and Deployment",
     skills: [
       { name: "Git" },
-      { name: "Docker" },
-      { name: "Postman" }
+      { name: "GitHub" },
+      { name: "Vercel" },
+      { name: "Render" }
     ],
   },
 ];
@@ -62,10 +66,10 @@ export const projects = [
   {
     id: 1,
     title: "Task Manager App (MERN Stack)",
-    image: portfolioImg, // 
+    image: taskManagerImg,
     date: "2026",
     description:
-      "A full-stack task management web application that allows users to register, log in, and manage tasks with full CRUD functionality. Includes JWT authentication, protected routes, and a responsive UI.",
+      "A full-stack task management application with user registration, login, JWT-protected routes, and user-specific task CRUD. Backend ownership checks prevent users from updating or deleting another user's tasks.",
     tags: [
       "React",
       "Node.js",
@@ -76,7 +80,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/abubakarmohaa2002-ux/task-manager-app",
-    webapp: "https://task-manager-app-khzo.vercel.app/", // 🔥 replace with your real link
+    webapp: "https://task-manager-app-z7ze.vercel.app/",
   },
 
   {
@@ -85,11 +89,11 @@ export const projects = [
     image: portfolioImg,
     date: "2026",
     description:
-      "A modern and responsive personal portfolio website built with React, showcasing projects and technical skills.",
+      "A personal portfolio built with React and styled-components to present my projects, verified technical skills, and contact information.",
     tags: ["React", "Styled Components"],
     category: "web app",
-    github: "#",
-    webapp: "#",
+    github: "https://github.com/abubakarmohaa2002-ux/portfolio",
+    webapp: "https://portfolio-xi-henna-dvqynfrv2h.vercel.app/",
   },
 ];
 
