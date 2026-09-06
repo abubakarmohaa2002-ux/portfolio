@@ -82,7 +82,8 @@ export const Title = styled.div`
   line-height: 64px;
 
   @media (max-width: 640px) {
-    font-size: 38px;
+    font-size: 32px;
+    line-height: 42px;
     text-align: center;
   }
 `;
@@ -95,9 +96,20 @@ export const TextLoop = styled.div`
   color: ${({ theme }) => theme.text_primary};
 
   @media (max-width: 640px) {
+    width: 100%;
     font-size: 20px;
+    line-height: 28px;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    gap: 2px;
+    text-align: center;
   }
+`;
+
+export const RolePrefix = styled.span`
+  flex-shrink: 0;
+  white-space: nowrap;
 `;
 
 export const Span = styled.span`

@@ -52,11 +52,38 @@ const Tag = styled.span`
   border-radius: 8px;
 `
 
+const Links = styled.div`
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+`
+
+const ProjectLink = styled.a`
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid ${({ theme }) => theme.primary};
+  border-radius: 8px;
+  background: ${({ theme, $secondary }) =>
+    $secondary ? 'transparent' : theme.primary};
+  color: ${({ theme, $secondary }) =>
+    $secondary ? theme.primary : 'white'};
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.85;
+  }
+`
+
 const ProjectCard = ({ project }) => {
   return (
     <Card>
 
-      <Image src={project.image || "https://via.placeholder.com/300"} />
+      <Image
+       src={project.image || "https://via.placeholder.com/300"}
+       alt={`${project.title} screenshot`} />
 
       <Title>{project.title}</Title>
 
@@ -67,6 +94,25 @@ const ProjectCard = ({ project }) => {
           <Tag key={index}>{tag}</Tag>
         ))}
       </Tags>
+
+      <Links>
+       <ProjectLink
+         href={project.github}
+         target="_blank"
+         rel="noopener noreferrer"
+         $secondary
+       >
+        Source Code
+       </ProjectLink>
+
+       <ProjectLink
+        href={project.webapp}
+        target="_blank"
+        rel="noopener noreferrer"
+     >
+        Live Demo
+       </ProjectLink>
+      </Links>
 
       
 

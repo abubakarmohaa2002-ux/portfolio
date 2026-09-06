@@ -33,7 +33,7 @@ const Navbar = () => {
   }}
 >
   <DiCssdeck size="2.5rem" />
-  <Span>Abubakar</Span>
+  <Span>Abubakar Bakar</Span>
 </NavLogo>
 
         {/* ✅ Mobile Menu Icon */}

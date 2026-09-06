@@ -54,7 +54,7 @@ const Contact = () => {
           LinkedIn
         </Button>
 
-        <Button href="mailto:youremail@example.com">
+        <Button href="mailto:abubakarmohaa2002@gmail.com">
           Email Me
         </Button>
 

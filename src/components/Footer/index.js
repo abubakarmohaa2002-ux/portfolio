@@ -65,7 +65,7 @@ function Footer() {
       <FooterWrapper>
 
         {/* ✅ Your Name */}
-        <Logo>Abubakar Mohammed</Logo>
+        <Logo>{Bio.name}</Logo>
 
         {/* ✅ Clean Navigation */}
         <Nav>
@@ -82,7 +82,7 @@ function Footer() {
 
         {/* ✅ Clean Footer */}
         <Copyright>
-          © 2026 Abubakar Mohammed
+          © 2026 {Bio.name}
         </Copyright>
 
       </FooterWrapper>
