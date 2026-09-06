@@ -11,7 +11,8 @@ import {
   Title,
   Span,
   SubTitle,
-  ResumeButton
+  ResumeButton,
+  RolePrefix
 } from './HeroStyle'
 
 import HeroImg from '../../images/HeroImage.jpg'
@@ -38,7 +39,7 @@ const HeroSection = () => {
             </Title>
 
             <TextLoop>
-              I am a 
+              <RolePrefix>I am a</RolePrefix>
               <Span>
                 <Typewriter
                   options={{

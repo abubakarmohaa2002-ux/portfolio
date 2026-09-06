@@ -107,6 +107,11 @@ export const TextLoop = styled.div`
   }
 `;
 
+export const RolePrefix = styled.span`
+  flex-shrink: 0;
+  white-space: nowrap;
+`;
+
 export const Span = styled.span`
   color: ${({ theme }) => theme.primary};
 `;
