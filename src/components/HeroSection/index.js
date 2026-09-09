@@ -12,6 +12,7 @@ import {
   Span,
   SubTitle,
   ResumeButton,
+  ResumeLink,
   RolePrefix
 } from './HeroStyle'
 
@@ -59,6 +60,14 @@ const HeroSection = () => {
             <ResumeButton href="#projects">
               View My Work
             </ResumeButton>
+
+            <ResumeLink
+              href="/Abubakar_Mohammed_Bakar_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+        >
+              View Resume (PDF)
+            </ResumeLink>
 
           </HeroLeftContainer>
 

@@ -152,3 +152,25 @@ export const ResumeButton = styled.a`
     margin: auto;
   }
 `;
+
+export const ResumeLink = styled.a`
+  display: block;
+  width: fit-content;
+  margin-top: 12px;
+  padding: 10px 0;
+  color: ${({ theme }) => theme.text_primary};
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
+
+  &:focus-visible {
+    outline: 2px solid ${({ theme }) => theme.primary};
+    outline-offset: 4px;
+  }
+`;
